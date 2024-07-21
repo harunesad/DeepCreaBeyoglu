@@ -4,15 +4,20 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.UI;
+using DG.Tweening;
+using static System.TimeZoneInfo;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI hintText, timeText;
     [SerializeField] List<Hints> hints;
     [SerializeField] Button hintBuy;
-    public float time;
     [SerializeField] GameObject interact;
+    [SerializeField] CanvasGroup loading;
+    [SerializeField] PlayerControl playerControl;
+    public float time;
     int hintLevelIndex;
+    bool timer = true;
     void Start()
     {
         HintUpdate(false, false);
@@ -21,8 +26,11 @@ public class UIManager : MonoBehaviour
     }
     void Update()
     {
-        time-= Time.deltaTime;
-        timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
+        if (timer)
+        {
+            time -= Time.deltaTime;
+            timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
+        }
     }
     public void HintUpdate(bool nextLevel, bool hintTake)
     {
@@ -57,10 +65,28 @@ public class UIManager : MonoBehaviour
             HintUpdate(false, true);
         }
     }
+    public void NextLevel()
+    {
+        timer = false;
+        playerControl.enabled = false;
+        DOTween.To(() => loading.alpha, x => loading.alpha = x, 1, 1).SetEase(Ease.Linear).OnComplete(() =>
+        {
+            HintUpdate(true, false);
+            playerControl.transform.position = hints[hintLevelIndex].startPoint.position;
+            DOTween.To(() => loading.alpha, x => loading.alpha = x, 0, 1).SetEase(Ease.Linear).OnComplete(() =>
+            {
+                time = 180;
+                timer = true;
+                playerControl.enabled = true;
+            });
+        });
+        time = 180;
+    }
 }
 [Serializable]
 public class Hints
 {
     public List<string> hints;
     public int hintIndex;
+    public Transform startPoint;
 }

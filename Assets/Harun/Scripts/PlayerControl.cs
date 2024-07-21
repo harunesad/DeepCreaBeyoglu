@@ -15,14 +15,14 @@ public class PlayerControl : MonoBehaviour
     }
     void Update()
     {
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward * 10, out hit, 100, item))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 1, item))
         {
             uIManager.InteractUpdate(true, "Collect");
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (hit.transform.gameObject.layer == 6)
                 {
-
+                    uIManager.NextLevel();
                 }
                 else if (hit.transform.gameObject.layer == 7)
                 {
@@ -35,7 +35,7 @@ public class PlayerControl : MonoBehaviour
         {
             uIManager.InteractUpdate(false, "Collect");
         }
-        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * 10, Color.red);
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red);
     }
     void FixedUpdate()
     {
