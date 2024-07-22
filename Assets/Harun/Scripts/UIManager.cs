@@ -6,6 +6,7 @@ using System;
 using UnityEngine.UI;
 using DG.Tweening;
 using static System.TimeZoneInfo;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class UIManager : MonoBehaviour
         {
             time -= Time.deltaTime;
             timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
+        }
+        if (time <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     public void HintUpdate(bool nextLevel, bool hintTake)
