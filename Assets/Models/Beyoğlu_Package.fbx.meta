@@ -1,0 +1,1649 @@
+fileFormatVersion: 2
+guid: c64ccb8a129d84348812bae9f86de10a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-0
+    second: {fileID: 2800000, guid: 40aba3df9003572429b2ab56d2f30998, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-1
+    second: {fileID: 2800000, guid: 2f9425f705d51f2498b91cdd33ee32ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-10
+    second: {fileID: 2800000, guid: 7dc1c68be55493949a7799841acdeefd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-100
+    second: {fileID: 2800000, guid: 75e0719c3cfdfaf46979d0b37a5be599, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-101
+    second: {fileID: 2800000, guid: c20bc9289b0d82b4c86d6f1f1984c3b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-102
+    second: {fileID: 2800000, guid: f65d10ed538839a40ba7edc68d590447, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-103
+    second: {fileID: 2800000, guid: 27c9782609bfd0c4d9b4bd1f8523c1c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-104
+    second: {fileID: 2800000, guid: 7e5870519c12d874099290ab901ecade, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-105
+    second: {fileID: 2800000, guid: b84118757be2d66479f5722347a409be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-106
+    second: {fileID: 2800000, guid: 33e3dde8b57991943ba3c70e9bf931d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-107
+    second: {fileID: 2800000, guid: 81cdb762fdc13e945b16bd91eb999145, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-108
+    second: {fileID: 2800000, guid: 04ca8e23713c60c4e96892bcf6558b07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-109
+    second: {fileID: 2800000, guid: 02667bc7fb110624a8a594b1f34485a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-11
+    second: {fileID: 2800000, guid: c5b829ffa4170424cacf48a3f3227400, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-110
+    second: {fileID: 2800000, guid: 5e81f8272135c6f499276a91eeddfd23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-111
+    second: {fileID: 2800000, guid: 40d420cdb5bd37245a9b1432f188365f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-112
+    second: {fileID: 2800000, guid: 7197fe77d4e18624ebb55cb6260df342, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-113
+    second: {fileID: 2800000, guid: cdf8f90a888f0824bab24a2bded0e703, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-114
+    second: {fileID: 2800000, guid: 3b6b94951ed46984a80406e81457069c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-115
+    second: {fileID: 2800000, guid: e77c433a2c3ec6a43b8d46e0974c61b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-116
+    second: {fileID: 2800000, guid: 62ec0bbb248be1f46b36249fcb5f40b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-117
+    second: {fileID: 2800000, guid: e69b8e0074cb17a4bbec288a7464db3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-118
+    second: {fileID: 2800000, guid: 712069c3d0c1b7347b83ebc64bd02713, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-119
+    second: {fileID: 2800000, guid: b0eb7ae7d4d2c6d4f91b6503248f6ef1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-12
+    second: {fileID: 2800000, guid: 7b423823bc8241643bc7b3c804e3bc5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-120
+    second: {fileID: 2800000, guid: b92786e38b676ba44bba52a9a6ed34da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-121
+    second: {fileID: 2800000, guid: c7eb839eaa5ac8c4093a5018c3f577da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-122
+    second: {fileID: 2800000, guid: f7ee0fc070bf02b468c214be650a621b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-123
+    second: {fileID: 2800000, guid: 19d769902bdc4fc49b739bcdc9cc8a92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-124
+    second: {fileID: 2800000, guid: 7d706849a48297d479cae74c1f920b15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-125
+    second: {fileID: 2800000, guid: 72e987d8ea0a167458d57ebba64ceda2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-126
+    second: {fileID: 2800000, guid: f97aedcd7de1dc244937ad1ee1a757da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-127
+    second: {fileID: 2800000, guid: a3a8b94e36ccec2458c2b747bce06d56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-128
+    second: {fileID: 2800000, guid: e860a7cac9cd297468422973d12b9117, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-129
+    second: {fileID: 2800000, guid: 2648246cbba496641a34880c308d4458, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-13
+    second: {fileID: 2800000, guid: e6bc9b3a59e6c274c8f31f5384ace066, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-130
+    second: {fileID: 2800000, guid: 4451b8f14aeaebc4bb7f102ada323690, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-131
+    second: {fileID: 2800000, guid: 19a8c29ff14a0dd4ba04aa069a599ac6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-132
+    second: {fileID: 2800000, guid: 7654c77fcdb54e14797c322c762f7dc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-133
+    second: {fileID: 2800000, guid: 045c1d4223643d341a5bcf2bcdcc5ffe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-134
+    second: {fileID: 2800000, guid: fdb4b76f6ac182549a1abaab15abf769, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-135
+    second: {fileID: 2800000, guid: a9e167144b6deb041a598ffb6747daa7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-136
+    second: {fileID: 2800000, guid: 569b1188be91d5044aaf8ae363b644eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-137
+    second: {fileID: 2800000, guid: f1072f5ff9a2c91478a985ec554f00d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-138
+    second: {fileID: 2800000, guid: f15ddd5967b3adc439064b4dbf9d06a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-139
+    second: {fileID: 2800000, guid: 228f31ab46648b543988e4ed62f42757, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-14
+    second: {fileID: 2800000, guid: a975927bab06cbe42a0ac31d948d89b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-140
+    second: {fileID: 2800000, guid: 190d45e400f45014590999c1386e5dd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-141
+    second: {fileID: 2800000, guid: 602432985fb1b964ab6111fd7f9dac1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-142
+    second: {fileID: 2800000, guid: 5042943b8d3e4be4fa5e842344e3a713, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-143
+    second: {fileID: 2800000, guid: 36a6b62f3ec96e9408e6395055ef1d92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-144
+    second: {fileID: 2800000, guid: e25750f81681f20419fded138f916dd0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-145
+    second: {fileID: 2800000, guid: bf9436b503e60d441a9ced927a16e38e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-146
+    second: {fileID: 2800000, guid: e57ca74671c858c4693dd0984f8b5e19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-147
+    second: {fileID: 2800000, guid: 66fcd34faf8374f49b54e06f981c25db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-148
+    second: {fileID: 2800000, guid: 7970c2cd0315bee41895dfc2a1905617, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-149
+    second: {fileID: 2800000, guid: d28cca92063fcc14b97ba0ea5db0bb36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-15
+    second: {fileID: 2800000, guid: 2788c6af1aa8a1c4191d67ae533b0e31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-150
+    second: {fileID: 2800000, guid: c0d302f8de11c894389ad3338e9526ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-151
+    second: {fileID: 2800000, guid: 80190d925a8c3ce44b9d4f6c653a99b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-152
+    second: {fileID: 2800000, guid: e7124a1d013b6e841a4d99e61aa90fda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-153
+    second: {fileID: 2800000, guid: 681de48725a1b694391bb58ea6d97f9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-154
+    second: {fileID: 2800000, guid: cd5945c51ea8c2a4093483ead875de8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-155
+    second: {fileID: 2800000, guid: ed8860991bfff3040adad5f218fed853, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-156
+    second: {fileID: 2800000, guid: e7535aff4de908b4997915299226726d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-157
+    second: {fileID: 2800000, guid: 66b5a09730dc6f04cbefa519999e2e1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-158
+    second: {fileID: 2800000, guid: a71ff745a88341e4cb4395763634039a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-159
+    second: {fileID: 2800000, guid: 10a88e8d053f46a49a790aa6af822cdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-16
+    second: {fileID: 2800000, guid: d37501ae795f1374fb49a7825e5ec9ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-160
+    second: {fileID: 2800000, guid: 89f9b282bb6336f44b9c33a3606d3078, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-161
+    second: {fileID: 2800000, guid: bdce19e35d40bfb47bc3958391cb4074, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-162
+    second: {fileID: 2800000, guid: ec822f6ef9f4b79429fa01ad7810bdc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-163
+    second: {fileID: 2800000, guid: 598a6726090609b4985f66c4a99f3cdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-164
+    second: {fileID: 2800000, guid: d96be499bad387448b315f00dc66e970, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-165
+    second: {fileID: 2800000, guid: 6fb26f343780d2c4db73111c4fc27e79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-166
+    second: {fileID: 2800000, guid: bc3d43154f6f83347b24ae8e1c69128b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-167
+    second: {fileID: 2800000, guid: 52ea89d40ca6ca64280b8a8afef10402, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-168
+    second: {fileID: 2800000, guid: ba17bfd1f2afc85488610fd3c9c3a3df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-169
+    second: {fileID: 2800000, guid: 556d05a224cee104bb621187acae2ab3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-17
+    second: {fileID: 2800000, guid: 152b34f7e887edf4196c041264bc83aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-170
+    second: {fileID: 2800000, guid: f291966bd44394d4cb24c16981450605, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-171
+    second: {fileID: 2800000, guid: 7429dd3cdd1e1f549acefc19efa8e759, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-172
+    second: {fileID: 2800000, guid: 5c4f2112840ceac4885f7af3f095c5cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-173
+    second: {fileID: 2800000, guid: 89d2bd98c6f4f1a4686251892c07ac0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-174
+    second: {fileID: 2800000, guid: f1368ca8effab1f4d8b07ff87e727d84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-175
+    second: {fileID: 2800000, guid: b4234e63454f69548a9b8be607c64f07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-176
+    second: {fileID: 2800000, guid: 4db0aeb75e2782747a4bfa373365f981, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-177
+    second: {fileID: 2800000, guid: 0048e3a2fd537424b88f0d2626f7ce9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-178
+    second: {fileID: 2800000, guid: b86297a57d0b3e141a1392bb6cbb12fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-179
+    second: {fileID: 2800000, guid: 4ac3e5939d75bd94c81be503fdff64f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-18
+    second: {fileID: 2800000, guid: 8818227e83b41c746be8ad188f478827, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-180
+    second: {fileID: 2800000, guid: 2b286ad7b3e21e940a3f141dd35d071f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-181
+    second: {fileID: 2800000, guid: ebbc29ff800129a44a2f83295bc2b12e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-182
+    second: {fileID: 2800000, guid: 21812ff6af3dfeb4cb9b12991780b1e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-183
+    second: {fileID: 2800000, guid: dd007b0d5d5314941b81eeeb29b7cf77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-184
+    second: {fileID: 2800000, guid: 5f175995a0dc5af4781f0f057ffcf538, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-185
+    second: {fileID: 2800000, guid: 8b281cc0b3c9ca245b29af4f25bb8e83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-186
+    second: {fileID: 2800000, guid: 9761e768b79046a4db64e9be997c5114, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-187
+    second: {fileID: 2800000, guid: e570b21c5538838448726d1ee2497b65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-188
+    second: {fileID: 2800000, guid: e22080fefab92c14d90eb75df483aaca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-189
+    second: {fileID: 2800000, guid: c07fa96efc109ef4c94cef537aa646f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-19
+    second: {fileID: 2800000, guid: d717ce70b0a4bba45a056a30f516ce1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-190
+    second: {fileID: 2800000, guid: b2a6e6f0316ba2b49921b30a597c262b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-191
+    second: {fileID: 2800000, guid: cafe9a0ba826f9843a82880ab06fe650, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-192
+    second: {fileID: 2800000, guid: 0a8f3de06b678f94c8a277beb18395b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-193
+    second: {fileID: 2800000, guid: 979ae54b76ddbe643bbd446986987a64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-194
+    second: {fileID: 2800000, guid: 7fdf7c4c881fa20459faaca9f9843974, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-195
+    second: {fileID: 2800000, guid: e9d7bea366bb4bb41890d3efab1360fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-196
+    second: {fileID: 2800000, guid: c582337a929b4bf48ade769dcffb92de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-197
+    second: {fileID: 2800000, guid: a52c61f0539138f4b88e5747c1e3da8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-198
+    second: {fileID: 2800000, guid: be68f26387330dc4aa6009ef41b914b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-199
+    second: {fileID: 2800000, guid: d663235b6f55aa441a05f1801c731a07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-2
+    second: {fileID: 2800000, guid: cc4b51900e5cfa14eaf2c0de171501e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-20
+    second: {fileID: 2800000, guid: 21bccade59011b8468221fd529a1e359, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-200
+    second: {fileID: 2800000, guid: d11bb47b4ce8b574ebe7f1d67a44ac12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-201
+    second: {fileID: 2800000, guid: 8d06b8b4e93ddf249b4a408246b435fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-202
+    second: {fileID: 2800000, guid: 12ecfcc6776cd054584125124dfdf7a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-203
+    second: {fileID: 2800000, guid: c3cd6fbcb168b3b439e867cbbc0e23fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-204
+    second: {fileID: 2800000, guid: 1b4750c9cdd498c4599dfe3a426ed13f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-205
+    second: {fileID: 2800000, guid: 644bd1e87468db448800a9b806516ff6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-206
+    second: {fileID: 2800000, guid: abe850adaf12b9948bb4c28bf7d95d9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-207
+    second: {fileID: 2800000, guid: 7be0b9c2389e9d448a2e848f62142886, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-208
+    second: {fileID: 2800000, guid: 801af729718587e4694b65be28481483, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-209
+    second: {fileID: 2800000, guid: 620d84858ebc3c24d98eb9256bd3ea3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-21
+    second: {fileID: 2800000, guid: bbe98c99898158c4a8be1b707298ea0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-210
+    second: {fileID: 2800000, guid: 8563296fd93c5f64580487cef9931b24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-211
+    second: {fileID: 2800000, guid: da12db0a811cc154499c6f80b5e94ca8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-212
+    second: {fileID: 2800000, guid: e5880f8b2ca9af64a861fa225091dc83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-213
+    second: {fileID: 2800000, guid: 6c280f8e09bd22d40aefa2a9a0911b2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-214
+    second: {fileID: 2800000, guid: 2dabd2332cd841c41ad1178fca495547, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-215
+    second: {fileID: 2800000, guid: fd213b143edb6ae48a4a9391ceaeccac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-216
+    second: {fileID: 2800000, guid: 94512f5e4032916488f66f509f78f9ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-217
+    second: {fileID: 2800000, guid: 6224338166922bd4bbefe9aace03672f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-218
+    second: {fileID: 2800000, guid: ec15889d5bcd4f14f9b45a68a3775ec8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-219
+    second: {fileID: 2800000, guid: e99b58c1298750740a2664865e55ea81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-22
+    second: {fileID: 2800000, guid: 51615941e51a70e41a260dc7941d5852, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-220
+    second: {fileID: 2800000, guid: 1732a5d4e1f866e408ee546b342681cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-221
+    second: {fileID: 2800000, guid: f61fa502b2ee9934e94839cbf440e857, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-222
+    second: {fileID: 2800000, guid: aa5f615d2accf334b984143d0402ebbe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-223
+    second: {fileID: 2800000, guid: 3fa502b210da7a947abd5409845c47ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-224
+    second: {fileID: 2800000, guid: 5317ffd3fc16229468eb02bf7be687a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-225
+    second: {fileID: 2800000, guid: 8a99ef7c37de47a42977112ce15bcc7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-226
+    second: {fileID: 2800000, guid: 82bdfb209cf0d944db44496a4f9d02fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-227
+    second: {fileID: 2800000, guid: 8ab6895ef7ba201468c8dc9856af4292, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-228
+    second: {fileID: 2800000, guid: 876e116144d591341850553166b6ac3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-229
+    second: {fileID: 2800000, guid: 30a5cddeb2d51874395b0222fd30f89a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-23
+    second: {fileID: 2800000, guid: 9c4430c29a9f4504d9907390e5e88a2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-230
+    second: {fileID: 2800000, guid: cbb8c4f1ac05e4d469b8265db214e31d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-231
+    second: {fileID: 2800000, guid: c33aa9e68b70e4941bc8105a31ccb180, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-232
+    second: {fileID: 2800000, guid: 1919a74a67bb28f4bad2f571e0bc67f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-233
+    second: {fileID: 2800000, guid: ccd2857058e0dc94599cf048a3810088, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-234
+    second: {fileID: 2800000, guid: 760de73cc66e009449877d6e50867f47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-235
+    second: {fileID: 2800000, guid: 7515eed6f49a86b478a058ba322388d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-236
+    second: {fileID: 2800000, guid: 091eacf89f0e4f44495bfce690043006, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-237
+    second: {fileID: 2800000, guid: f907b2814bc87fa4ea42924cbb079b08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-238
+    second: {fileID: 2800000, guid: f0de4847de390ad4fad73e6146e0f899, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-239
+    second: {fileID: 2800000, guid: 434b3cb5ed3e1a14ba2a9ffdfd25fdaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-24
+    second: {fileID: 2800000, guid: 9a0d66d1832cfad4daf90bbdb08ade03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-240
+    second: {fileID: 2800000, guid: 6a739745d19e42a48912576b77f1ad52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-241
+    second: {fileID: 2800000, guid: e6472d6ab8d34ff4ba5eaf04e539bf51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-242
+    second: {fileID: 2800000, guid: 0ed7c31844c32aa49bad42c37b545c04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-243
+    second: {fileID: 2800000, guid: 4296eb4a56ddbf749a86f06d2d7cbcf0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-244
+    second: {fileID: 2800000, guid: 943e2fa73cfb92f40a52a902374acc51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-245
+    second: {fileID: 2800000, guid: 4301d446ed5cfc9458d4b94301cf763e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-246
+    second: {fileID: 2800000, guid: 7b233d6e573b76d43871700e9ff529ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-247
+    second: {fileID: 2800000, guid: 20f6f5770f535b74f91a2945e5c200de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-248
+    second: {fileID: 2800000, guid: 9f5fb7bd3cc44184db76d8af5bde226b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-249
+    second: {fileID: 2800000, guid: f6e756ecf3b48374196085b9becd57de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-25
+    second: {fileID: 2800000, guid: dd799480fc5eaaa46af07f56d9be6af9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-250
+    second: {fileID: 2800000, guid: 90a16f8c4f4bd7340847d303e5a59215, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-251
+    second: {fileID: 2800000, guid: 1546d62e929d31144b9d5fc8327b7444, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-252
+    second: {fileID: 2800000, guid: 1138b21647c517d4193ed0c6508dd9fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-253
+    second: {fileID: 2800000, guid: 7aebb04649cd31d4b9751cc10b063456, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-254
+    second: {fileID: 2800000, guid: 2863c20faa3ce9b45bdb34387244a46f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-255
+    second: {fileID: 2800000, guid: 51e4745fa28d6404ba64c48179a2d55e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-256
+    second: {fileID: 2800000, guid: 1998dda87ed98b940adafccd63a589a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-257
+    second: {fileID: 2800000, guid: 4679542be0bc9104b82ded411f52d126, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-258
+    second: {fileID: 2800000, guid: afd3c0d1679459d4db62942f71cbdb1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-259
+    second: {fileID: 2800000, guid: b9541c8fe2bd14845a2158eb40a2ab87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-26
+    second: {fileID: 2800000, guid: 3043ed31c3cef6d48ab943d9d529562b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-260
+    second: {fileID: 2800000, guid: ba9b6e9dd839de844b3c727af4a3520f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-261
+    second: {fileID: 2800000, guid: ed249d20548005343982c7b9a6fb5617, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-262
+    second: {fileID: 2800000, guid: bedc91ebe1a74ab4f911d4ace4632e7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-263
+    second: {fileID: 2800000, guid: 9dd297adbfb489144aa575644462dc7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-264
+    second: {fileID: 2800000, guid: c9ec94d25d3c74042b3069573b767198, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-265
+    second: {fileID: 2800000, guid: 6b29cf1c0c1f2324a83e11afb73e57dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-266
+    second: {fileID: 2800000, guid: 346586b92452c704d86592bc8f5c3cb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-267
+    second: {fileID: 2800000, guid: f8cb66cde5c98f141be9a4a006ee79db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-268
+    second: {fileID: 2800000, guid: 709ced03cdf2d8948afb4401fb9c1c2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-269
+    second: {fileID: 2800000, guid: 422f56052dc368d4eaf10ef8269d64ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-27
+    second: {fileID: 2800000, guid: eb6c3126cb820224d8940bbfc00ee1b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-270
+    second: {fileID: 2800000, guid: 9ce9b6f300fbb4c4f9a2c451a07dc8ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-271
+    second: {fileID: 2800000, guid: 003315f2b4f83c240a6ad05c9ac8c501, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-272
+    second: {fileID: 2800000, guid: e00dbbeccf79f074b9f891242a0f638e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-273
+    second: {fileID: 2800000, guid: f7483f333fcf7c945bc15ccb73855888, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-274
+    second: {fileID: 2800000, guid: 50150e5c4816f0143ae89e7be414d762, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-275
+    second: {fileID: 2800000, guid: 48570aa26f271f0498a938650af18024, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-276
+    second: {fileID: 2800000, guid: 886c269f6077ed34d9c6b91bfae65108, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-277
+    second: {fileID: 2800000, guid: 2af2cd90e345fd844a7ec116e8736a58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-278
+    second: {fileID: 2800000, guid: be4b0207802ea084a8829ed0afe596f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-279
+    second: {fileID: 2800000, guid: eb0dc5e536bcc8a4eb5ad0bcb7fbc9a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-28
+    second: {fileID: 2800000, guid: 51e935fac0b815546aa18c0b940d4916, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-280
+    second: {fileID: 2800000, guid: ae7ec7a74b501c24fa88329d3859f7c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-281
+    second: {fileID: 2800000, guid: a174f728f5fe2b94ba11a53e19ab3541, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-282
+    second: {fileID: 2800000, guid: 698ac92abe074f949afd64d1f32618da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-283
+    second: {fileID: 2800000, guid: bfb286368b5ac8f46923fee2be7a07dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-284
+    second: {fileID: 2800000, guid: da29e9b18367db843a89f6d3b3614d0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-285
+    second: {fileID: 2800000, guid: f9cb2fdbb9131cb41bf60e72d9378b83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-286
+    second: {fileID: 2800000, guid: 9106e21a9109d664f845aa27a8f54885, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-287
+    second: {fileID: 2800000, guid: 9ddbcda8127130742977d17d4505fa72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-288
+    second: {fileID: 2800000, guid: 8bc9317383c682146b19113d7d376dbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-289
+    second: {fileID: 2800000, guid: 1a15e3d5f394bdf46b4647c67513e823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-29
+    second: {fileID: 2800000, guid: e781b1b318480bb498e145d6bfa719c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-290
+    second: {fileID: 2800000, guid: 6be5a15ffef6c4a4bab9125f0c9bec3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-291
+    second: {fileID: 2800000, guid: e1e0f02e87f1be048b077797803903c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-292
+    second: {fileID: 2800000, guid: 445f8f58e714f3c4a8a3f698a96e3f23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-293
+    second: {fileID: 2800000, guid: 25d45473f01ec2e4181d1f01fda7cb8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-294
+    second: {fileID: 2800000, guid: dc53fdce8a47a374799df0137bb15636, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-295
+    second: {fileID: 2800000, guid: 6283d9abb7abea341acb8abf05fe645b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-296
+    second: {fileID: 2800000, guid: bb60aa0576a75ea49a825442bd007c6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-297
+    second: {fileID: 2800000, guid: ccefdd87c460bfb41b7565fa7b64f086, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-298
+    second: {fileID: 2800000, guid: 594e2ae317452b5468e2df3794ff2778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-299
+    second: {fileID: 2800000, guid: d3d049da2db300d4fb45d944e104c691, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-3
+    second: {fileID: 2800000, guid: 812bd90611d434349a4b76754de3c025, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-30
+    second: {fileID: 2800000, guid: 60d8605f66eb66440b1ee07f761f0511, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-300
+    second: {fileID: 2800000, guid: 4c8bf367ecfcab145b1a93e99d71ce97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-301
+    second: {fileID: 2800000, guid: 40755b155b9270e4ea7528f759b4b0eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-302
+    second: {fileID: 2800000, guid: 03940c19eff0aab4d96d1f403c69cbd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-303
+    second: {fileID: 2800000, guid: 848a68ec5e7fd8741ab1ba1554a28963, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-304
+    second: {fileID: 2800000, guid: decfa8d54a8df8f48b4da3c5da714334, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-305
+    second: {fileID: 2800000, guid: 195108c8c35320a48aa30978bea4d265, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-306
+    second: {fileID: 2800000, guid: 1782782940151cb408e9a80f18a2e83e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-307
+    second: {fileID: 2800000, guid: 292cbdd775b0d5041b110a859431fd7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-31
+    second: {fileID: 2800000, guid: f4dc77f856cb5964195ad7afb171c7e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-32
+    second: {fileID: 2800000, guid: 78d9f91080a4ee7489bfd1661642faee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-33
+    second: {fileID: 2800000, guid: 3bb8f1176d0cf2247b0de07f7a142c11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-34
+    second: {fileID: 2800000, guid: a710b12e20428634a96b2f445e724beb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-35
+    second: {fileID: 2800000, guid: c2a0a0e6541e7584b998e2610742c4f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-36
+    second: {fileID: 2800000, guid: ce0022cafaff4934bb20911e251baa30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-37
+    second: {fileID: 2800000, guid: 744c4720da6ce7c47958d8580725a9b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-38
+    second: {fileID: 2800000, guid: 7bd32a18b0566e94db6a6b2448cebd44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-39
+    second: {fileID: 2800000, guid: 7bf3eb77bade34e4a8fb1e454715c666, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-4
+    second: {fileID: 2800000, guid: ff1e45ebd3dc4e24db86a7e2ffd546e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-40
+    second: {fileID: 2800000, guid: dde8a277805e85e44af010b52fdfc7c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-41
+    second: {fileID: 2800000, guid: a2ab51f6a4b81ea4bbb816fdfbe7ce25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-42
+    second: {fileID: 2800000, guid: 8f60d76c93a5d9b4a90e693b7445d743, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-43
+    second: {fileID: 2800000, guid: a7194e563004dfa41bced3eb3e173445, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-44
+    second: {fileID: 2800000, guid: cce3c83eb98d41845953728798149101, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-45
+    second: {fileID: 2800000, guid: ad7f91655cdf7cc4c830e46116a45f9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-46
+    second: {fileID: 2800000, guid: 8327beb36ce471f4c89be187d246691f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-47
+    second: {fileID: 2800000, guid: fe0a24725fc02694c90fdc30ddf34d77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-48
+    second: {fileID: 2800000, guid: 47eb98aa26117214e8aaff76285e7a33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-49
+    second: {fileID: 2800000, guid: cdef760e7308de3428072aa41d38f0b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-5
+    second: {fileID: 2800000, guid: fdf21e3099773934fba73e25841eaf8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-50
+    second: {fileID: 2800000, guid: b975cadeadc6d07449b30a889ffcd00f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-51
+    second: {fileID: 2800000, guid: 783fed5dd1c33094baf8832d8f8e4b77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-52
+    second: {fileID: 2800000, guid: 03ccc880351c6e2469392a895cb1d32c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-53
+    second: {fileID: 2800000, guid: 713a92d2658102444975d67766b5891e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-54
+    second: {fileID: 2800000, guid: 15c2c6b3f7336e442bec8fb88c816922, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-55
+    second: {fileID: 2800000, guid: 95793f595bd39e54db599a536824b796, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-56
+    second: {fileID: 2800000, guid: 05fb1d5cdbbf92c429c2946cb7af422b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-57
+    second: {fileID: 2800000, guid: 916d3383491ebb043851e3a56565719f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-58
+    second: {fileID: 2800000, guid: 3eecc8aea19ae5640b924a78efb141d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-59
+    second: {fileID: 2800000, guid: 76319e9c897c89446bbf02d8911a9525, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-6
+    second: {fileID: 2800000, guid: 7513a78abdaddff4a97266b4a175002a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-60
+    second: {fileID: 2800000, guid: 44df0e6de68a0c34996c5173f1df58f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-61
+    second: {fileID: 2800000, guid: 6882008bdfe39fb4da0ec508c61e87c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-62
+    second: {fileID: 2800000, guid: 6d0203e67fa54174d9ff59322b2d3cf4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-63
+    second: {fileID: 2800000, guid: 63b71d487cb854c4ca631528b7c379ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-64
+    second: {fileID: 2800000, guid: 84ed8e861ae2688498f33864d03bfeef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-65
+    second: {fileID: 2800000, guid: d6cbc74948647aa43bee7c97a87c8ee5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-66
+    second: {fileID: 2800000, guid: 347484873387b574aae75ad158452c9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-67
+    second: {fileID: 2800000, guid: e09b8c29c38fb7f499d3a25a01d01867, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-68
+    second: {fileID: 2800000, guid: 410f9d56e4f1197438d08384ddb18084, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-69
+    second: {fileID: 2800000, guid: e0c0e782d07ed2e429fc49e20ba098f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-7
+    second: {fileID: 2800000, guid: 850a10c8d60d29e4eb2448b1fefd4ffd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-70
+    second: {fileID: 2800000, guid: baa131cfad6886f419eb187e383b16a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-71
+    second: {fileID: 2800000, guid: 7b96bfd1ba927a94885b05788c79e186, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-72
+    second: {fileID: 2800000, guid: 7be9d23a977278d46ae5a2a936acf19d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-73
+    second: {fileID: 2800000, guid: 48b45432b7024b340ba03198fc96c0ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-74
+    second: {fileID: 2800000, guid: 21c2442309654f34eaebdf821082f322, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-75
+    second: {fileID: 2800000, guid: 09b4e25c107bf84458885b5b7d8bfca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-76
+    second: {fileID: 2800000, guid: 5ee7b61fba0711a4a978a4e0c9d2f596, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-77
+    second: {fileID: 2800000, guid: d63c2d020876cb348a4391079d62306b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-78
+    second: {fileID: 2800000, guid: 52b39c806f758664ba6c358df234e694, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-79
+    second: {fileID: 2800000, guid: 6ae00e7b63399474b8856fb706fd8341, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-8
+    second: {fileID: 2800000, guid: 892c5ac51ccf1f344b0387fb482f0a64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-80
+    second: {fileID: 2800000, guid: 6822c049a3c2948489fc36aa6afcde34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-81
+    second: {fileID: 2800000, guid: 56ea3ca8d01d6d0469d3fcbcabfe0859, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-82
+    second: {fileID: 2800000, guid: 44425b109eed0e74bb7e5f5f45ce42b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-83
+    second: {fileID: 2800000, guid: ff468042e0e230d4694c6c97c26bb1ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-84
+    second: {fileID: 2800000, guid: 36122b35e4b469f4e975fe2010ea7995, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-85
+    second: {fileID: 2800000, guid: de2af3ae11a7e9145b0bf695cdb683bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-86
+    second: {fileID: 2800000, guid: 269f927e75463be4ca2864050debaf04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-87
+    second: {fileID: 2800000, guid: bf4dbc0529d08084f95bfcdf2f785b80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-88
+    second: {fileID: 2800000, guid: e9b58ca5a6b107b4e8c0c50c3ccc5192, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-89
+    second: {fileID: 2800000, guid: 852453c71fe984441a268d2930aea91d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-9
+    second: {fileID: 2800000, guid: e104bda22ab485c45be315eae12673d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-90
+    second: {fileID: 2800000, guid: 8b537f64e3f3e0a47b9b8b656ade5f16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-91
+    second: {fileID: 2800000, guid: 3049669331e85e94994168d8f42652dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-92
+    second: {fileID: 2800000, guid: a3296eda83237c943a877381224d3f25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-93
+    second: {fileID: 2800000, guid: dde7cf0d1aaf4624b8a5759fa56a6ecf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-94
+    second: {fileID: 2800000, guid: 3aadc837233f8034183dfa15496e2329, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-95
+    second: {fileID: 2800000, guid: 708695ebc48dcae48b07f0385382493a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-96
+    second: {fileID: 2800000, guid: 4c55fe1e5a4011147923302603cebcb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-97
+    second: {fileID: 2800000, guid: 551dfd4fbfc851743b567e05691c66ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-98
+    second: {fileID: 2800000, guid: 205fea47876ccca49a15525e61e1da89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beyoglu-99
+    second: {fileID: 2800000, guid: 43c81076613f88945acf3662a4bebe9b, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

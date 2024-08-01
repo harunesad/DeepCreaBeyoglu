@@ -15,11 +15,23 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject interact;
     [SerializeField] CanvasGroup loading;
     [SerializeField] PlayerControl playerControl;
+    [SerializeField] AudioSource gameMusic;
     public float time;
     int hintLevelIndex;
     bool timer = true;
     void Start()
     {
+        //if (PlayerPrefs.HasKey("Sound"))
+        //{
+        //    if (PlayerPrefs.GetString("Sound") == "true")
+        //    {
+        //        gameMusic.Play();
+        //    }
+        //}
+        //else
+        //{
+        //    gameMusic.Play();
+        //}
         HintUpdate(false, false);
         timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
         hintBuy.onClick.AddListener(HintBuy);
@@ -91,6 +103,8 @@ public class UIManager : MonoBehaviour
             time = 180;
             timer = true;
             playerControl.enabled = true;
+            hints[hintLevelIndex].coin.SetActive(true);
+            AudioSource.PlayClipAtPoint(hints[hintLevelIndex].infoSound, Camera.main.transform.position);
         });
     }
     void Home()
@@ -104,4 +118,6 @@ public class Hints
     public List<string> hints;
     public int hintIndex;
     public string info;
+    public GameObject coin;
+    public AudioClip infoSound;
 }

@@ -15,14 +15,22 @@ public class PlayerControl : MonoBehaviour
     }
     void Update()
     {
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 1, item))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 3, item))
         {
             uIManager.InteractUpdate(true, "Collect");
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (hit.transform.gameObject.layer == 6)
                 {
-                    uIManager.NextLevel();
+                    if (hit.transform.CompareTag("Coin"))
+                    {
+                        hit.transform.gameObject.SetActive(false);
+                    }
+                    else
+                    {
+                        hit.transform.gameObject.SetActive(false);
+                        uIManager.NextLevel();
+                    }
                 }
                 else if (hit.transform.gameObject.layer == 7)
                 {
@@ -35,10 +43,12 @@ public class PlayerControl : MonoBehaviour
         {
             uIManager.InteractUpdate(false, "Collect");
         }
-        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red);
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * 3, Color.red);
     }
     void FixedUpdate()
     {
+        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, Camera.main.transform.localEulerAngles.y, transform.localEulerAngles.z);
+
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
             MovePlayer();
@@ -59,5 +69,6 @@ public class PlayerControl : MonoBehaviour
         movement.Normalize();
 
         transform.position += movement * moveSpeed * Time.deltaTime;
+        //transform.Rotate(Vector3.up *  Input.GetAxisRaw("Horizontal"));
     }
 }
