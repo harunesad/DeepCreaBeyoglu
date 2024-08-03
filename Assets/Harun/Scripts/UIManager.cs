@@ -6,36 +6,57 @@ using System;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
+using static Unity.VisualScripting.Member;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI hintText, timeText;
-    [SerializeField] List<Hints> hints;
+    public List<Hints> hints;
     [SerializeField] Button hintBuy, home;
     [SerializeField] GameObject interact;
     [SerializeField] CanvasGroup loading;
     [SerializeField] PlayerControl playerControl;
-    [SerializeField] AudioSource gameMusic;
+    [SerializeField] AudioSource gameMusic, clips;
+    [SerializeField] AudioClip homeClip, outClip, firstClip, secondClip;
     public float time;
-    int hintLevelIndex;
-    bool timer = true;
+    public int hintLevelIndex;
+    bool timer = false;
     void Start()
     {
-        //if (PlayerPrefs.HasKey("Sound"))
-        //{
-        //    if (PlayerPrefs.GetString("Sound") == "true")
-        //    {
-        //        gameMusic.Play();
-        //    }
-        //}
-        //else
+        //if (PlayerPrefs.GetString("Sound") == "true")
         //{
         //    gameMusic.Play();
         //}
+        MusicPlayer(gameMusic);
         HintUpdate(false, false);
         timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
         hintBuy.onClick.AddListener(HintBuy);
         home.onClick.AddListener(Home);
+        clips.clip = firstClip;
+        //clips.Play();
+        MusicPlayer(clips);
+        StartCoroutine(WaitFirstClip());
+    }
+    IEnumerator WaitFirstClip()
+    {
+        yield return new WaitForSecondsRealtime(firstClip.length);
+        clips.clip = secondClip;
+        //clips.Play();
+        MusicPlayer(clips);
+        StartCoroutine(WaitSecondClip());
+    }
+    IEnumerator WaitSecondClip()
+    {
+        yield return new WaitForSecondsRealtime(secondClip.length);
+        playerControl.enabled = true;
+        timer = true;
+    }
+    void MusicPlayer(AudioSource source)
+    {
+        if (PlayerPrefs.GetString("Sound") == "true")
+        {
+            source.Play();
+        }
     }
     void Update()
     {
@@ -49,6 +70,21 @@ public class UIManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+    public void CollisionEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Home") && gameMusic.clip != homeClip)
+        {
+            gameMusic.clip = homeClip;
+            //gameMusic.Play();
+            MusicPlayer(gameMusic);
+        }
+        else if (other.gameObject.CompareTag("Out") && gameMusic.clip != outClip)
+        {
+            gameMusic.clip = outClip;
+            //gameMusic.Play();
+            MusicPlayer(gameMusic);
+        }
+    }
     public void HintUpdate(bool nextLevel, bool hintTake)
     {
         hintText.text = "";
@@ -59,6 +95,10 @@ public class UIManager : MonoBehaviour
         if (hintTake)
         {
             hints[hintLevelIndex].hintIndex++;
+        }
+        if (hintLevelIndex == 6)
+        {
+            return;
         }
         for (int i = 0; i < hints[hintLevelIndex].hintIndex; i++)
         {
@@ -84,28 +124,47 @@ public class UIManager : MonoBehaviour
     }
     public void NextLevel()
     {
+        hintText.text = "";
         timer = false;
         playerControl.enabled = false;
         DOTween.To(() => loading.alpha, x => loading.alpha = x, 1, 1).SetEase(Ease.Linear).OnComplete(() =>
         {
-            loading.GetComponentInChildren<TextMeshProUGUI>().text = hints[hintLevelIndex].info;
             HintUpdate(true, false);
-            //playerControl.transform.position = hints[hintLevelIndex].startPoint.position;
+            loading.GetComponentInChildren<TextMeshProUGUI>().text = hints[hintLevelIndex - 1].info;
             StartCoroutine(WaitStart());
         });
-        time = 180;
     }
     IEnumerator WaitStart()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(3);
         DOTween.To(() => loading.alpha, x => loading.alpha = x, 0, 1).SetEase(Ease.Linear).OnComplete(() =>
         {
-            time = 180;
-            timer = true;
-            playerControl.enabled = true;
-            hints[hintLevelIndex].coin.SetActive(true);
-            AudioSource.PlayClipAtPoint(hints[hintLevelIndex].infoSound, Camera.main.transform.position);
+            Debug.Log(hintLevelIndex);
+            hints[hintLevelIndex - 1].coin.SetActive(true);
+            if (hintLevelIndex < 6)
+            {
+                hints[hintLevelIndex].target.layer = 6;
+            }
+            hints[hintLevelIndex - 1].target.layer = 7;
+            clips.clip = hints[hintLevelIndex - 1].infoSound;
+            //clips.Play();
+            MusicPlayer(clips);
+            StartCoroutine(WaitWalk());
         });
+    }
+    IEnumerator WaitWalk()
+    {
+        yield return new WaitForSecondsRealtime(hints[hintLevelIndex - 1].infoSound.length);
+        time = 180 - hintLevelIndex * 5;
+        if (hintLevelIndex < 6)
+        {
+            timer = true;
+        }
+        else
+        {
+            timeText.text = "";
+        }
+        playerControl.enabled = true;
     }
     void Home()
     {
@@ -118,6 +177,7 @@ public class Hints
     public List<string> hints;
     public int hintIndex;
     public string info;
+    public GameObject target;
     public GameObject coin;
     public AudioClip infoSound;
 }

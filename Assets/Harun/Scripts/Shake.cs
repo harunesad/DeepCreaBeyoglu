@@ -11,10 +11,6 @@ public class Shake : MonoBehaviour
     {
         virtualCamera = GetComponent<CinemachineVirtualCamera>();
     }
-    void Start()
-    {
-        
-    }
     private void Update()
     {
         if (shakeTimer > 0)

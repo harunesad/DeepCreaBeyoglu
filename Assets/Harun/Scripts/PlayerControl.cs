@@ -9,10 +9,6 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] UIManager uIManager;
     [SerializeField] Shake shake;
     RaycastHit hit;
-    void Start()
-    {
-
-    }
     void Update()
     {
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 3, item))
@@ -28,7 +24,7 @@ public class PlayerControl : MonoBehaviour
                     }
                     else
                     {
-                        hit.transform.gameObject.SetActive(false);
+                        hit.transform.gameObject.layer = 0;
                         uIManager.NextLevel();
                     }
                 }
@@ -54,6 +50,10 @@ public class PlayerControl : MonoBehaviour
             MovePlayer();
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        uIManager.CollisionEnter(other);
+    }
     void MovePlayer()
     {
         Vector3 cameraForward = Camera.main.transform.forward;
@@ -69,6 +69,5 @@ public class PlayerControl : MonoBehaviour
         movement.Normalize();
 
         transform.position += movement * moveSpeed * Time.deltaTime;
-        //transform.Rotate(Vector3.up *  Input.GetAxisRaw("Horizontal"));
     }
 }

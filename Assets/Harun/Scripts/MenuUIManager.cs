@@ -21,6 +21,7 @@ public class MenuUIManager : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.SetString("Sound", "true");
             gameMusic.Play();
         }
         play.onClick.AddListener(Play);
@@ -43,10 +44,6 @@ public class MenuUIManager : MonoBehaviour
             bg.sprite = first;
         }
     }
-    void Update()
-    {
-
-    }
     void Play()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -54,11 +51,11 @@ public class MenuUIManager : MonoBehaviour
     void Sound(string soundState)
     {
         PlayerPrefs.SetString("Sound", soundState);
-        if (soundState == "true")
+        if (soundState == "true" && !gameMusic.isPlaying)
         {
             gameMusic.Play();
         }
-        else
+        else if (soundState == "false")
         {
             gameMusic.Stop();
         }
