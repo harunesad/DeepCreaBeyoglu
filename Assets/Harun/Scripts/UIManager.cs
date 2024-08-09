@@ -12,8 +12,9 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI hintText, timeText;
     public List<Hints> hints;
-    [SerializeField] Button hintBuy, home;
+    [SerializeField] Button hintBuy, home, restart, join, message;
     [SerializeField] GameObject interact;
+    [SerializeField] Transform point;
     [SerializeField] CanvasGroup loading;
     [SerializeField] PlayerControl playerControl;
     [SerializeField] AudioSource gameMusic, clips;
@@ -23,17 +24,15 @@ public class UIManager : MonoBehaviour
     bool timer = false;
     void Start()
     {
-        //if (PlayerPrefs.GetString("Sound") == "true")
-        //{
-        //    gameMusic.Play();
-        //}
         MusicPlayer(gameMusic);
         HintUpdate(false, false);
-        timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
+        timeText.text = ((int)(time / 60)).ToString() + " . " + ((int)(time % 60)).ToString();
         hintBuy.onClick.AddListener(HintBuy);
         home.onClick.AddListener(Home);
+        join.onClick.AddListener(Join);
+        message.onClick.AddListener(Message);
+        restart.onClick.AddListener(GameRestart);
         clips.clip = firstClip;
-        //clips.Play();
         MusicPlayer(clips);
         StartCoroutine(WaitFirstClip());
     }
@@ -41,7 +40,6 @@ public class UIManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(firstClip.length);
         clips.clip = secondClip;
-        //clips.Play();
         MusicPlayer(clips);
         StartCoroutine(WaitSecondClip());
     }
@@ -63,7 +61,7 @@ public class UIManager : MonoBehaviour
         if (timer)
         {
             time -= Time.deltaTime;
-            timeText.text = ((int)(time / 60)).ToString() + " : " + ((int)(time % 60)).ToString();
+            timeText.text = ((int)(time / 60)).ToString() + " . " + ((int)(time % 60)).ToString();
         }
         if (time <= 0)
         {
@@ -75,15 +73,25 @@ public class UIManager : MonoBehaviour
         if (other.gameObject.CompareTag("Home") && gameMusic.clip != homeClip)
         {
             gameMusic.clip = homeClip;
-            //gameMusic.Play();
             MusicPlayer(gameMusic);
         }
         else if (other.gameObject.CompareTag("Out") && gameMusic.clip != outClip)
         {
             gameMusic.clip = outClip;
-            //gameMusic.Play();
             MusicPlayer(gameMusic);
         }
+    }
+    void GameRestart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    void Join()
+    {
+        Application.OpenURL("https://www.youtube.com/");
+    }
+    void Message()
+    {
+        Application.OpenURL("https://www.youtube.com/");
     }
     public void HintUpdate(bool nextLevel, bool hintTake)
     {
@@ -125,11 +133,16 @@ public class UIManager : MonoBehaviour
     public void NextLevel()
     {
         hintText.text = "";
+        loading.GetComponentInChildren<TextMeshProUGUI>().text = "";
         timer = false;
         playerControl.enabled = false;
         DOTween.To(() => loading.alpha, x => loading.alpha = x, 1, 1).SetEase(Ease.Linear).OnComplete(() =>
         {
             HintUpdate(true, false);
+            if (hintLevelIndex == 6)
+            {
+                playerControl.transform.position = point.position;
+            }
             loading.GetComponentInChildren<TextMeshProUGUI>().text = hints[hintLevelIndex - 1].info;
             StartCoroutine(WaitStart());
         });
@@ -155,16 +168,20 @@ public class UIManager : MonoBehaviour
     IEnumerator WaitWalk()
     {
         yield return new WaitForSecondsRealtime(hints[hintLevelIndex - 1].infoSound.length);
-        time = 180 - hintLevelIndex * 5;
+        time = 180 - hintLevelIndex * 10;
         if (hintLevelIndex < 6)
         {
             timer = true;
+            playerControl.enabled = true;
         }
         else
         {
             timeText.text = "";
+            loading.blocksRaycasts = true;
+            loading.interactable = true;
+            restart.transform.parent.gameObject.SetActive(true);
+            DOTween.To(() => loading.alpha, x => loading.alpha = x, 1, 1).SetEase(Ease.Linear);
         }
-        playerControl.enabled = true;
     }
     void Home()
     {

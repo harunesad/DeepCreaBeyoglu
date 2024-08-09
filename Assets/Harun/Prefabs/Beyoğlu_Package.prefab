@@ -4744,6 +4744,7 @@ Transform:
   - {fileID: 2015333053260718988}
   - {fileID: 284339062467244330}
   - {fileID: 6693087524434305367}
+  - {fileID: 8249358443337306195}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511032581014097633
@@ -7136,7 +7137,7 @@ GameObject:
   - component: {fileID: 4990353949897421708}
   - component: {fileID: 6779555327700828403}
   - component: {fileID: 4628564922886023846}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Turtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11023,7 +11024,7 @@ GameObject:
   - component: {fileID: 7841077794677429234}
   - component: {fileID: 2777845086219593997}
   - component: {fileID: 1709815794850437326}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Telgraf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13428,6 +13429,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4165480637498257224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8249358443337306195}
+  m_Layer: 0
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8249358443337306195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165480637498257224}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.15, y: 0, z: -53.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4610809128237625146}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4181590323341455530
 GameObject:
   m_ObjectHideFlags: 0
@@ -14319,7 +14351,7 @@ GameObject:
   - component: {fileID: 7028843982469004082}
   - component: {fileID: 8857177266729800322}
   - component: {fileID: 3410998938766015922}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Medusa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18332,9 +18364,10 @@ GameObject:
   - component: {fileID: 4482410405829842443}
   - component: {fileID: 7978802298913044849}
   - component: {fileID: 5486355949905908970}
+  - component: {fileID: 7233297536403148331}
   m_Layer: 0
   m_Name: Untitled.261
-  m_TagString: Untagged
+  m_TagString: Home
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18404,6 +18437,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7233297536403148331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618619392871969109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.099999994, y: 0.001, z: 0.100000024}
+  m_Center: {x: -0.44199997, y: 0.0005, z: 0.635}
 --- !u!1 &5626610309651348578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19649,7 +19703,7 @@ GameObject:
   - component: {fileID: 351224987540032341}
   - component: {fileID: 5460296899624009148}
   - component: {fileID: 7117641619460960562}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Horse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19836,9 +19890,10 @@ GameObject:
   - component: {fileID: 3864615092387782184}
   - component: {fileID: 3323420359450474886}
   - component: {fileID: 6320138764954923576}
+  - component: {fileID: 4340359055654731829}
   m_Layer: 0
   m_Name: Untitled.255
-  m_TagString: Untagged
+  m_TagString: Out
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19908,6 +19963,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4340359055654731829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089631914799567072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.099999994, y: 0.006, z: 0.099999994}
+  m_Center: {x: -0.44299996, y: -0.0019999999, z: 0.53499997}
 --- !u!1 &6107326646849155751
 GameObject:
   m_ObjectHideFlags: 0
@@ -23912,8 +23988,8 @@ GameObject:
   - component: {fileID: 6002326332282933}
   - component: {fileID: 7920036708033686552}
   - component: {fileID: 2773809816940808929}
-  m_Layer: 6
-  m_Name: "Mart\u0131"
+  m_Layer: 7
+  m_Name: Marti
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
