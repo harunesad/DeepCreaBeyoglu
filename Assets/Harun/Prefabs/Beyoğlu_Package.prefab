@@ -2141,7 +2141,7 @@ GameObject:
   - component: {fileID: 4474785169889532602}
   - component: {fileID: 1266285436069214785}
   - component: {fileID: 7516470878292926823}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.072
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3059,7 +3059,7 @@ GameObject:
   - component: {fileID: 3725265490592423422}
   - component: {fileID: 1618880386383757587}
   - component: {fileID: 8008365553169595556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3457,7 +3457,7 @@ GameObject:
   - component: {fileID: 5788394822941009989}
   - component: {fileID: 5405015034707321786}
   - component: {fileID: 769975028085325599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.071
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6616,7 +6616,8 @@ GameObject:
   - component: {fileID: 5438595979117840087}
   - component: {fileID: 2700238091301004217}
   - component: {fileID: 6139786773233371781}
-  m_Layer: 0
+  - component: {fileID: 8504820205807187752}
+  m_Layer: 7
   m_Name: Untitled.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6688,6 +6689,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8504820205807187752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827064656351682260}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.01999998, y: 0.036, z: 0.004000008}
+  m_Center: {x: 0.282, y: 0.053999998, z: -0.533}
 --- !u!1 &1945117022630309828
 GameObject:
   m_ObjectHideFlags: 0
@@ -11671,7 +11693,7 @@ GameObject:
   - component: {fileID: 5090315765864702787}
   - component: {fileID: 217706898806994178}
   - component: {fileID: 7263664425900664559}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.099
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13577,7 +13599,7 @@ GameObject:
   - component: {fileID: 7234269623521276775}
   - component: {fileID: 8962726287661821303}
   - component: {fileID: 986953897932003163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.188
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18846,7 +18868,7 @@ GameObject:
   - component: {fileID: 3030147302940246998}
   - component: {fileID: 7146724630937429546}
   - component: {fileID: 4862640459963594764}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.191
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19515,7 +19537,7 @@ GameObject:
   - component: {fileID: 5083914394137663667}
   - component: {fileID: 2510892213772814223}
   - component: {fileID: 3578019000992658960}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.197
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22296,7 +22318,7 @@ GameObject:
   - component: {fileID: 2645656205892825784}
   - component: {fileID: 3628864849196953373}
   - component: {fileID: 4270392175960447360}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.237
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24469,7 +24491,7 @@ GameObject:
   - component: {fileID: 7540134567136480830}
   - component: {fileID: 5901940625302830350}
   - component: {fileID: 3303026449376795210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24823,7 +24845,7 @@ GameObject:
   - component: {fileID: 7316164924188720209}
   - component: {fileID: 364679616063336249}
   - component: {fileID: 6078438061817053358}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.198
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25304,7 +25326,7 @@ GameObject:
   - component: {fileID: 6578294336778793292}
   - component: {fileID: 7553242241858425165}
   - component: {fileID: 6097736706282104450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Untitled.263
   m_TagString: Untagged
   m_Icon: {fileID: 0}
